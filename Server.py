@@ -383,7 +383,7 @@ const status = document.getElementById("status");
 let password = sessionStorage.getItem("pcnet_password");
 
 if (!password) {{
-    password = prompt("Введите пароль:");
+    password = prompt("Введите пароль 1986");
 }}
 
 if (password) {{
