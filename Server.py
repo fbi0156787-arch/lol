@@ -598,7 +598,7 @@ const search = document.getElementById("search");
 let password = sessionStorage.getItem("pcnet_password");
 
 if (!password) {
-    password = prompt("Введите пароль PC Network:");
+    password = prompt("Введите пароль 1986");
 }
 
 if (password) {
